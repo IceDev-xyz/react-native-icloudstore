@@ -267,9 +267,4 @@ RCT_EXPORT_METHOD(multiMerge: (NSDictionary*)keyValuePairs resolver:(RCTPromiseR
   return @{ ICLOUD_STORE_CHANGED : kStoreChangedEvent };
 }
 
-+ (BOOL)requiresMainQueueSetup
-{
-    return YES;
-}
-
 @end
