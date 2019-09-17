@@ -266,5 +266,5 @@ RCT_EXPORT_METHOD(multiMerge: (NSDictionary*)keyValuePairs resolver:(RCTPromiseR
 - (NSDictionary<NSString *,id> *)constantsToExport {
   return @{ ICLOUD_STORE_CHANGED : kStoreChangedEvent };
 }
-
+ 
 @end
