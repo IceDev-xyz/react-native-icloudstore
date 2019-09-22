@@ -3,6 +3,7 @@
 //  iCloudStorage
 //
 //  Created by Mani Ghasemlou on 12/18/16.
+//  Edited by IceDev.xyz
 //  Copyright © 2016 Mani Ghasemlou. All rights reserved.
 //
 
@@ -266,5 +267,5 @@ RCT_EXPORT_METHOD(multiMerge: (NSDictionary*)keyValuePairs resolver:(RCTPromiseR
 - (NSDictionary<NSString *,id> *)constantsToExport {
   return @{ ICLOUD_STORE_CHANGED : kStoreChangedEvent };
 }
- 
+
 @end
